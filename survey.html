@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css" />
+
+<body>
+    <h1>Vaping Survey</h1>
+    <p id="description">A survey created to observe the effects of regular vaping.</p>
+    <fieldset class="space"></fieldset>
+    <form id="survey-form" method="post">
+    <fieldset>
+        <legend>1. Are you male or female?</legend>
+        <label for="male"><input id="male" type="radio" name="gender" class="inline" /> Male</label>
+        <label for="female"><input id="female" type="radio" name="gender" class="inline" /> Female</label>
+        </fieldset>
+        <fieldset>
+            <legend class="age-group">2. How old are you?</legend>
+            <label for="18-25"><input id="18-25" type="radio" name="age" class="inline" /> 18-25</label>
+            <label for="25-35"><input id="25-35" type="radio" name="age" class="inline" /> 25-35</label>
+            <label for="35-50"><input id="35-50" type="radio" name="age" class="inline" /> 35-50</label>
+            <label for="50+"><input id="50+" type="radio" name="age" class="inline" /> 50+</label>
+        </fieldset>
+        <fieldset>
+            <legend class="vaping">3. How often do you vape?</legend>
+        <label for="very-often"><input id="very-often" type="radio" name="frequency" class="inline" /> Very Often</label>
+        <label for="often"><input id="often" type="radio" name="frequency" class="inline" /> Often</label>
+        <label for="never"><input id="never" type="radio" name="frequency" class="inline" /> Never</label>
+      </fieldset>
+      <fieldset>
+          <legend class="continuity">4. How long have you been vaping?</legend>
+        <label for="6-months"><input id="6-months" type="radio" name="habit" class="inline" /> 6 months to 1 year</label>
+        <label for="1+year"><input id="1+year" type="radio" name="habit" class="inline" /> 1-3 years</label>
+        <label for="3+year"><input id="3+year" type="radio" name="habit" class="inline" /> 3+ years</label>
+        <label for="5+year"><input id="5+year" type="radio" name="habit" class="inline" /> 5+ years</label>
+      </fieldset>
+      <fieldset>
+          <legend class="feelings">5. Since vaping, which mood do you feel regularly?</legend>
+          <label for="happy"><input id="happy" type="radio" name="mood" class="inline" /> Happy</label>
+          <label for="anxious"><input id="anxious" type="radio" name="mood" class="inline" /> Anxious</label>
+          <label for="neutral"><input id="neutral" type="radio" name="mood" class="inline" /> Neutral</label>
+          <label for="depressed/sad"><input id="depressed/sad" type="radio" name="mood" class="inline" /> Depressed and/or sad</label>
+      </fieldset>
+      <fieldset>
+          <legend class="weed">6. Do you smoke weed?</legend>
+          <label for="yes"><input id="yes" type="radio" name="weed" class="inline" /> Yes</label>
+          <label for="no"><input id="no" type="radio" name="weed" class="inline" /> No</label>
+      </fieldset>
+      <fieldset>
+          <legend class="alcohol">6. Do you consume alcoholic beverages?</legend>
+          <label for="yes"><input id="yes" type="radio" name="alcohol" class="inline" /> Yes</label>
+          <label for="no"><input id="no" type="radio" name="alcohol" class="inline" /> No</label>
+      </fieldset>
+      <fieldset>
+          <legend class="addiction">7. Do you think you are addicted to vaping?</legend>
+          <label for="yes"><input id="yes" type="radio" name="addiction" class="inline" /> Yes</label>
+          <label for="no"><input id="no" type="radio" name="addiction" class="inline" /> No</label>
+      </fieldset>
+      <div></div>
+      <div></div>
+      <input type="submit" value="Submit" />
+    </form>
+</body>
